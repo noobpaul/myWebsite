@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('create', 'HomeController@create');
+
+Route::post('add', 'ButtonFunctions@add');
